@@ -2,7 +2,7 @@ const { User } = require('./models');
 
 
 User.where('name', 'in', ['Edvaldo', 'Douglas', 'Bruna'])
-    .fetchPage({
+    .fetchAll({
         withRelated: ['address'],
     })
     .then(users => {
