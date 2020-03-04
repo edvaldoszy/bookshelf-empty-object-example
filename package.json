@@ -1,0 +1,16 @@
+{
+    "name": "bookshelf-empty-object-example",
+    "version": "0.1.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "create-database": "node create-database.js",
+        "fetch-existing-address": "node fetch-existing-address.js",
+        "fetch-non-existing-address": "node fetch-non-existing-address.js"
+    },
+    "dependencies": {
+        "bookshelf": "1.0.1",
+        "knex": "0.19.4",
+        "sqlite3": "4.1.1"
+    }
+}
